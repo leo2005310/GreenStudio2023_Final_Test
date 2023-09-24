@@ -1,0 +1,170 @@
+
+
+
+t1答案
+#include<iostream>
+using namespace std;
+int main(){
+	int a[11]={0,1,2,3,4,5,6,7,8,9,10};
+	int left=0;
+	int right=10;
+    int mid=(left+right)/2;//因为是二分查找所以用5作为中间值
+    while(left<=right){
+    if(9>a[mid]){
+    	left=mid+1;
+    	mid=(left+right)/2;
+	}//不断缩小范围逼近9
+	if(9==a[mid]){
+		cout<<"查找成功"; 
+		return 0; 
+	}}
+
+}
+
+
+
+t2答案
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+	int first,second,third;
+	for(int i=100;i<=999;i++){
+		first=i/100;//百位数
+		second=(i%100)/10;//十位数
+		third=(i%100)%10;//个位数
+		if(first*first*first+second*second*second+third*third*third==i){
+			cout<<i<<" ";
+		}
+		
+	}
+
+}
+
+
+t3答案
+<html>
+    <head>
+        <title>加入绿荫工作室后对未来的规划</title>
+    </head>
+    <body>
+        <font color="blue"><font size="5"><B><EM>关于对绿荫的展望(from 李屹)</font></B><br></EM>
+        <font color="black"><font size="3">首先能通过绿荫的面试获得笔试的机会是感到非常荣幸的,虽然笔试的结果还未尘埃落定，既然主题是对未来的规划，那么便大胆地去想一下加入之后的事情吧。
+        </font>
+        <p><font size="2"><B>p1</p></B></font>
+        <p>首先绿荫工作室中有很多优秀的学长学姐还有许多同级对计算机感兴趣的同学，为绿荫创造了良好积极的环境,加入绿荫工作室后我认为自己可以多与工作室中的其他同学和学长学姐讨论技术上的问题，一个良好的学术讨论环境不管对集体还是个人都是很好的。就短期内而言，我希望利用好绿荫的资源，熟悉绿荫工作室的工作内容和目标，培养自己良好的代码习惯，去尽可能完善地完成绿荫交给我的内容</p>
+        <p><font size="2"><B>p2</p></B></font>
+        <p>再者，绿荫设立的目的是为了服务学校，如果能够加入绿荫，我会尽可能地去参加绿荫地工作和活动，为学校出一份力的同时积累自己开发项目的经验，计算机科学作为一门需要实际操作的学科，开发的经验是至关重要的。在开发项目地过程中希望能和大家平等开放地交流自己的看法。从长远来看，我希望在绿荫工作室锻炼创客精神和工程思维，和绿荫的各位学长学姐以及同学一起成长。</p>
+        <p><font size="2"><B>p3</p></B></font>
+        <p>就个人来说，尽管目前对计算机方面有一些基础的涉猎，但是始终没有对某几个方向进行深入的研究，在未来，希望能在绿荫的学术环境下，深入挖掘一到两个方向进行研究，例如量化投资，深度学习，图像处理方向，同时希望对linux系统更加熟悉地运用</p>
+        <p><font size="2"><B>p4</p></B></font>
+        绿荫作为立足于学校的工作室，我觉得如果我能加入绿荫，会积极参加绿荫的各项向校园其他同学普及计算机知识或者宣讲面试之类的活动，展现绿荫在学校中的担当。
+        <p><S>另外，希望绿荫工作室能提供多一点的福利（bushi）</S></p>
+        <p>最后放张绿荫的图作为结尾吧，很想加入呢</p>
+        <img src="image/greenstudio.jpg" height="200" width="200"/><font color="red"><font size="7"><B>yyds!</font></B>
+
+
+
+t4答案
+解析豆瓣 
+
+请求方式get curl --location 'https://ssl.google-analytics.com/ga.js
+'
+
+
+返回数据格式
+<!DOCTYPE html>
+<html lang=en>
+<meta charset=utf-8>
+<meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+<title>Error 404 (Not Found)!!1</title>
+<style>
+	* {
+		margin: 0;
+		padding: 0
+	}
+
+	html,
+	code {
+		font: 15px/22px arial, sans-serif
+	}
+
+	html {
+		background: #fff;
+		color: #222;
+		padding: 15px
+	}
+
+	body {
+		margin: 7% auto 0;
+		max-width: 390px;
+		min-height: 180px;
+		padding: 30px 0 15px
+	}
+
+	*>body {
+		background: url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;
+		padding-right: 205px
+	}
+
+	p {
+		margin: 11px 0 22px;
+		overflow: hidden
+	}
+
+	ins {
+		color: #777;
+		text-decoration: none
+	}
+
+	a img {
+		border: 0
+	}
+
+	@media screen and (max-width:772px) {
+		body {
+			background: none;
+			margin-top: 0;
+			max-width: none;
+			padding-right: 0
+		}
+	}
+
+	#logo {
+		background: url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;
+		margin-left: -5px
+	}
+
+	@media only screen and (min-resolution:192dpi) {
+		#logo {
+			background: url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;
+			-moz-border-image: url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0
+		}
+	}
+
+	@media only screen and (-webkit-min-device-pixel-ratio:2) {
+		#logo {
+			background: url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;
+			-webkit-background-size: 100% 100%
+		}
+	}
+
+	#logo {
+		display: inline-block;
+		height: 54px;
+		width: 150px
+	}
+</style>
+<a href=//www.google.com/> <span id=logo aria-label=Google></span></a>
+<p><b>404.</b> <ins>That’s an error.</ins>
+	<p>The requested URL <code>/ga.js%0A</code> was not found on this server. <ins>That’s all we know.</ins>
+
+
+
+
+
+
+
+
+
+
